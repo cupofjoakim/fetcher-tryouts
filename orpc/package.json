@@ -1,0 +1,26 @@
+{
+  "name": "orpc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@orpc/client": "^1.12.2",
+    "@orpc/server": "^1.12.2",
+    "@orpc/tanstack-query": "^1.12.2",
+    "@tanstack/react-query": "^5.90.12",
+    "next": "16.0.10",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
